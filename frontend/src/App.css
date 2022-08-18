@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.uni-padding{
+  padding: 0.7% 8% !important;
+}
+
+.row{
+  margin: 0 !important;
+}
+
+p{
+  margin: 0 !important;
+}
+
+.nav-link{
+  font-size: 20px !important;
+}
+
+.welcome-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container div{
+  padding: 40px 60px;
+  background-color: ghostwhite;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.signup-container{
+  margin-top: 50px !important;
+  background-color: ghostwhite;
+  padding: 30px 60px !important;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.login-container{
+  margin-top: 130px !important;
+  background-color: ghostwhite;
+  padding: 40px 60px !important;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.home-container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container div{
+  padding: 40px 60px;
+  background-color: ghostwhite;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.about-container{
+  margin-top: 80px !important;
+  background-color: ghostwhite;
+  padding: 40px 60px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.edit-container{
+  margin-top: 90px !important;
+  background-color: ghostwhite;
+  padding: 30px 60px !important;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.three-side-sections{
+  margin-top: 60px !important;
+  background-color: ghostwhite;
+  padding: 15px 30px !important;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.contact-container{
+  background-color: white;
+  padding: 40px !important;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.three-sided-sections{
+  background-color: ghostwhite;
+  padding: 5px 8px !important;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+@media only screen and (max-width:480px){
+  .welcome-container div{
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .home-container div{
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .about-container{
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .about-section{
+    margin-top: 40px !important;
+  }
+
+  .contact-container{
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .three-sided-sections{
+    padding: 0;
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .three-side-sections{
+    margin-top: 60px !important;
+    background-color: ghostwhite;
+    padding: 15px 30px !important;
+    box-shadow: 3px 3px 3px 3px gray;
+    text-align: center;
+  }
+}
